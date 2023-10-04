@@ -1,0 +1,13 @@
+let g:netrw_winsize         = 50
+let g:netrw_banner          = 0
+let g:netrw_hide            = 1
+let g:netrw_list_cmd        = 'tree -Fa -L 1'
+let g:netrw_liststyle       = 3
+let g:netrw_mkdir_cmd       = 'mkdir'
+let g:netrw_rename_cmd      = 'mv'
+let g:netrw_rm_cmd          = 'rm'
+let g:netrw_rmdir_cmd		= 'rmdir'
+let g:netrw_rmf_cmd			= 'rm -f'
+"let g:netrw_keepdir 		= 0
+let g:netrw_list_hide		= '\(^\|\s\s\)\zs\.\S\+'
+let g:netrw_localcopydircmd = 'cp -r'
